@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Flutter-AusweisApp2_Example' do
+  pod 'Flutter-AusweisApp2', :path => '../'
+
+  target 'Flutter-AusweisApp2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
