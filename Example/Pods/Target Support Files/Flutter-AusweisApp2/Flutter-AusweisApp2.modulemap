@@ -1,0 +1,6 @@
+framework module Flutter_AusweisApp2 {
+  umbrella header "Flutter-AusweisApp2-umbrella.h"
+
+  export *
+  module * { export * }
+}

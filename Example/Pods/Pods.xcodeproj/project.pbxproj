@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CF3CB5653EF7D56B6F48F5F4037F1B /* Pods-Flutter-AusweisApp2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C566672B82204D16AAFC43EF2DE6CA3 /* Pods-Flutter-AusweisApp2_Example-dummy.m */; };
+		3BA9CF2817980E2C78E5F75C1B738585 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE2DB3B3388DFADE0A5A504EF36278 /* ReplaceMe.swift */; };
+		5CC95CA6F364B9244BBF45A5BADAE147 /* Flutter-AusweisApp2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 783F82D7C55B43BA53CC61245C88EA18 /* Flutter-AusweisApp2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F7B2FD976A51B18043968EC81CD8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8109F6F81C71D274A6C9869AF4F33A7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		869710AA1F82FD93117F51C61C0EA3F0 /* Pods-Flutter-AusweisApp2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A732168F35135616A96BA6F8DA6DCF /* Pods-Flutter-AusweisApp2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B57257936427A0832F354017387FA9 /* Pods-Flutter-AusweisApp2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98620C8A51E033B72991886107CAE7A2 /* Pods-Flutter-AusweisApp2_Tests-dummy.m */; };
+		AE4C4FD39E11FFF3418608138B67F131 /* Flutter-AusweisApp2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6627346DD6A902FEF19466F56907820 /* Flutter-AusweisApp2-dummy.m */; };
+		BA7976B14F025F5060CF63836B96E261 /* Pods-Flutter-AusweisApp2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 713CB236465AF988B22FDFA3554DA0C7 /* Pods-Flutter-AusweisApp2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F169968538AF7B7D3EDAB805A9A8F741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE5A293E0032B93FEDF2B693B4BB48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B8119633C1D68048B3611A584F47BB;
+			remoteInfo = "Pods-Flutter-AusweisApp2_Example";
+		};
+		4AFE4AAD180D9E1DA372B8C37FBC4F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB41E06AAB1E7C9E18305C13A4423709;
+			remoteInfo = "Flutter-AusweisApp2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E167D474A389FDD0C278E1DE77EE9F /* Flutter-AusweisApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flutter-AusweisApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		08B62CE2FA3CD1688BE543CF1734CAF8 /* Pods-Flutter-AusweisApp2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flutter-AusweisApp2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAF5EE2B49E1CD660D23D0C7663E523 /* Pods-Flutter-AusweisApp2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flutter-AusweisApp2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C566672B82204D16AAFC43EF2DE6CA3 /* Pods-Flutter-AusweisApp2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flutter-AusweisApp2_Example-dummy.m"; sourceTree = "<group>"; };
+		313C68742545D5DBE44D9F4E1698F1C3 /* Flutter-AusweisApp2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Flutter-AusweisApp2-Info.plist"; sourceTree = "<group>"; };
+		3D0F0C3E5D22BB6FBB474F480FCFADF5 /* Flutter-AusweisApp2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flutter-AusweisApp2-prefix.pch"; sourceTree = "<group>"; };
+		45A732168F35135616A96BA6F8DA6DCF /* Pods-Flutter-AusweisApp2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flutter-AusweisApp2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4F0EC1A579591A084BA557CD756CB153 /* Flutter-AusweisApp2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Flutter-AusweisApp2.modulemap"; sourceTree = "<group>"; };
+		713CB236465AF988B22FDFA3554DA0C7 /* Pods-Flutter-AusweisApp2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flutter-AusweisApp2_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		783F82D7C55B43BA53CC61245C88EA18 /* Flutter-AusweisApp2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flutter-AusweisApp2-umbrella.h"; sourceTree = "<group>"; };
+		81050EB7575DC2DEDB41E1C6697694E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8345CAD17FDC920B6C6766FBAFFFA6F9 /* Pods-Flutter-AusweisApp2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flutter-AusweisApp2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8918C5DEEDAB170250E767CB8EF97C98 /* Pods-Flutter-AusweisApp2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flutter-AusweisApp2_Tests-Info.plist"; sourceTree = "<group>"; };
+		923672BF59C06280BC6D9639B208548F /* Flutter-AusweisApp2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Flutter-AusweisApp2.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		926CD8B46990089BD1B2060D4B382659 /* Pods-Flutter-AusweisApp2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flutter-AusweisApp2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98620C8A51E033B72991886107CAE7A2 /* Pods-Flutter-AusweisApp2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flutter-AusweisApp2_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A07A047378F783F953452C3B60E6678 /* Pods-Flutter-AusweisApp2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flutter-AusweisApp2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A658ACBC0422274DA5F307BA7341C6C9 /* Pods-Flutter-AusweisApp2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flutter-AusweisApp2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACDAA752F92E59A53D7F0E290F5B6EA4 /* Pods-Flutter-AusweisApp2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flutter-AusweisApp2_Example-Info.plist"; sourceTree = "<group>"; };
+		B16DD7FBB8D4CCF64F74F618FDE4DAB6 /* Pods-Flutter-AusweisApp2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flutter-AusweisApp2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B21F62418C2118678165BFC879618360 /* Flutter-AusweisApp2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Flutter-AusweisApp2"; path = Flutter_AusweisApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22132C72C31AE9541A4E5E93A4E4A71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C42CC5341C431464E83497FCA830C822 /* Flutter-AusweisApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flutter-AusweisApp2.release.xcconfig"; sourceTree = "<group>"; };
+		C8EA5E625958161F7807E6F161F51510 /* Pods-Flutter-AusweisApp2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flutter-AusweisApp2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D2450C30EC5862DF65BDE323126FA0CA /* Pods-Flutter-AusweisApp2_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Flutter-AusweisApp2_Example"; path = Pods_Flutter_AusweisApp2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6627346DD6A902FEF19466F56907820 /* Flutter-AusweisApp2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flutter-AusweisApp2-dummy.m"; sourceTree = "<group>"; };
+		E148B0F6AED37B31B4A8A488B9CC790B /* Pods-Flutter-AusweisApp2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flutter-AusweisApp2_Tests.modulemap"; sourceTree = "<group>"; };
+		F013DE09A76430A087BEC52EE923B322 /* Pods-Flutter-AusweisApp2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flutter-AusweisApp2_Example.modulemap"; sourceTree = "<group>"; };
+		F0FE2DB3B3388DFADE0A5A504EF36278 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "Flutter-AusweisApp2/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		F21E081CB9D32B72AE5E554FA8A2982A /* Pods-Flutter-AusweisApp2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flutter-AusweisApp2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F242B1F941047F4F349A6A9C153175 /* Pods-Flutter-AusweisApp2_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Flutter-AusweisApp2_Tests"; path = Pods_Flutter_AusweisApp2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C50AFC82EDF56C9A5556632E4369B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8109F6F81C71D274A6C9869AF4F33A7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FEECF1013BBBAAAD0472C3B957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F169968538AF7B7D3EDAB805A9A8F741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814293AC5675A13A8669056DD315B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F7B2FD976A51B18043968EC81CD8BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F65044624F3A274A923BFD6F9BF5AC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				923672BF59C06280BC6D9639B208548F /* Flutter-AusweisApp2.podspec */,
+				81050EB7575DC2DEDB41E1C6697694E5 /* LICENSE */,
+				C22132C72C31AE9541A4E5E93A4E4A71 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F0EB1062618FDF6406728E18AFA4AD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0EC1A579591A084BA557CD756CB153 /* Flutter-AusweisApp2.modulemap */,
+				D6627346DD6A902FEF19466F56907820 /* Flutter-AusweisApp2-dummy.m */,
+				313C68742545D5DBE44D9F4E1698F1C3 /* Flutter-AusweisApp2-Info.plist */,
+				3D0F0C3E5D22BB6FBB474F480FCFADF5 /* Flutter-AusweisApp2-prefix.pch */,
+				783F82D7C55B43BA53CC61245C88EA18 /* Flutter-AusweisApp2-umbrella.h */,
+				03E167D474A389FDD0C278E1DE77EE9F /* Flutter-AusweisApp2.debug.xcconfig */,
+				C42CC5341C431464E83497FCA830C822 /* Flutter-AusweisApp2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Flutter-AusweisApp2";
+			sourceTree = "<group>";
+		};
+		389FBDE7F7AC7619728B526F36F9046B /* Pods-Flutter-AusweisApp2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F013DE09A76430A087BEC52EE923B322 /* Pods-Flutter-AusweisApp2_Example.modulemap */,
+				F21E081CB9D32B72AE5E554FA8A2982A /* Pods-Flutter-AusweisApp2_Example-acknowledgements.markdown */,
+				8345CAD17FDC920B6C6766FBAFFFA6F9 /* Pods-Flutter-AusweisApp2_Example-acknowledgements.plist */,
+				2C566672B82204D16AAFC43EF2DE6CA3 /* Pods-Flutter-AusweisApp2_Example-dummy.m */,
+				926CD8B46990089BD1B2060D4B382659 /* Pods-Flutter-AusweisApp2_Example-frameworks.sh */,
+				ACDAA752F92E59A53D7F0E290F5B6EA4 /* Pods-Flutter-AusweisApp2_Example-Info.plist */,
+				713CB236465AF988B22FDFA3554DA0C7 /* Pods-Flutter-AusweisApp2_Example-umbrella.h */,
+				B16DD7FBB8D4CCF64F74F618FDE4DAB6 /* Pods-Flutter-AusweisApp2_Example.debug.xcconfig */,
+				9A07A047378F783F953452C3B60E6678 /* Pods-Flutter-AusweisApp2_Example.release.xcconfig */,
+			);
+			name = "Pods-Flutter-AusweisApp2_Example";
+			path = "Target Support Files/Pods-Flutter-AusweisApp2_Example";
+			sourceTree = "<group>";
+		};
+		3D4DD4A485550F79560FAF656163444E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83B6F18188574646488865424A403217 /* Flutter-AusweisApp2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		574B85C45532EA32BE3EFA4D083E19FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				389FBDE7F7AC7619728B526F36F9046B /* Pods-Flutter-AusweisApp2_Example */,
+				E43B482492D3801CE2D1CD766CEE83B7 /* Pods-Flutter-AusweisApp2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B1BADD7B376A342A4E035F714FE9FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B21F62418C2118678165BFC879618360 /* Flutter-AusweisApp2 */,
+				D2450C30EC5862DF65BDE323126FA0CA /* Pods-Flutter-AusweisApp2_Example */,
+				F7F242B1F941047F4F349A6A9C153175 /* Pods-Flutter-AusweisApp2_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B6F18188574646488865424A403217 /* Flutter-AusweisApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE2DB3B3388DFADE0A5A504EF36278 /* ReplaceMe.swift */,
+				23F65044624F3A274A923BFD6F9BF5AC /* Pod */,
+				2F0EB1062618FDF6406728E18AFA4AD1 /* Support Files */,
+			);
+			name = "Flutter-AusweisApp2";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D4DD4A485550F79560FAF656163444E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7B1BADD7B376A342A4E035F714FE9FB1 /* Products */,
+				574B85C45532EA32BE3EFA4D083E19FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E43B482492D3801CE2D1CD766CEE83B7 /* Pods-Flutter-AusweisApp2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E148B0F6AED37B31B4A8A488B9CC790B /* Pods-Flutter-AusweisApp2_Tests.modulemap */,
+				A658ACBC0422274DA5F307BA7341C6C9 /* Pods-Flutter-AusweisApp2_Tests-acknowledgements.markdown */,
+				2BAF5EE2B49E1CD660D23D0C7663E523 /* Pods-Flutter-AusweisApp2_Tests-acknowledgements.plist */,
+				98620C8A51E033B72991886107CAE7A2 /* Pods-Flutter-AusweisApp2_Tests-dummy.m */,
+				8918C5DEEDAB170250E767CB8EF97C98 /* Pods-Flutter-AusweisApp2_Tests-Info.plist */,
+				45A732168F35135616A96BA6F8DA6DCF /* Pods-Flutter-AusweisApp2_Tests-umbrella.h */,
+				08B62CE2FA3CD1688BE543CF1734CAF8 /* Pods-Flutter-AusweisApp2_Tests.debug.xcconfig */,
+				C8EA5E625958161F7807E6F161F51510 /* Pods-Flutter-AusweisApp2_Tests.release.xcconfig */,
+			);
+			name = "Pods-Flutter-AusweisApp2_Tests";
+			path = "Target Support Files/Pods-Flutter-AusweisApp2_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5ADAB4DDC24033167F41F094799CB4A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7976B14F025F5060CF63836B96E261 /* Pods-Flutter-AusweisApp2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE57834C972F87F13EAA323B84DCC20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869710AA1F82FD93117F51C61C0EA3F0 /* Pods-Flutter-AusweisApp2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB26E7CE6773AD83C81D76ADF7772055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC95CA6F364B9244BBF45A5BADAE147 /* Flutter-AusweisApp2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12B8119633C1D68048B3611A584F47BB /* Pods-Flutter-AusweisApp2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5451014E9EC18370773E459EB98691C /* Build configuration list for PBXNativeTarget "Pods-Flutter-AusweisApp2_Example" */;
+			buildPhases = (
+				5ADAB4DDC24033167F41F094799CB4A4 /* Headers */,
+				4685A8BD0084A9130A1EF36D973BAFCF /* Sources */,
+				B814293AC5675A13A8669056DD315B54 /* Frameworks */,
+				F7A8A33C168540D9FDBB6F5B8B5EEBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AEE8E33BB4F1D2D94FA402D5F7B5CB /* PBXTargetDependency */,
+			);
+			name = "Pods-Flutter-AusweisApp2_Example";
+			productName = Pods_Flutter_AusweisApp2_Example;
+			productReference = D2450C30EC5862DF65BDE323126FA0CA /* Pods-Flutter-AusweisApp2_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3A3BE9A289C9DCBA762ABA398651217 /* Pods-Flutter-AusweisApp2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36591A18662F58DF596F09480AA32FC5 /* Build configuration list for PBXNativeTarget "Pods-Flutter-AusweisApp2_Tests" */;
+			buildPhases = (
+				AEE57834C972F87F13EAA323B84DCC20 /* Headers */,
+				0CABC3F27BBAC3421C053383C383E541 /* Sources */,
+				5DF92FEECF1013BBBAAAD0472C3B957D /* Frameworks */,
+				C598C6DDD457AD0F635DC8D6BEB358CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101EE95C5F30D3B4024CDDF7A29543FA /* PBXTargetDependency */,
+			);
+			name = "Pods-Flutter-AusweisApp2_Tests";
+			productName = Pods_Flutter_AusweisApp2_Tests;
+			productReference = F7F242B1F941047F4F349A6A9C153175 /* Pods-Flutter-AusweisApp2_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB41E06AAB1E7C9E18305C13A4423709 /* Flutter-AusweisApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E4480B7C4085F2F7EE9AC7D23948E5 /* Build configuration list for PBXNativeTarget "Flutter-AusweisApp2" */;
+			buildPhases = (
+				BB26E7CE6773AD83C81D76ADF7772055 /* Headers */,
+				9DB1E15C0C39A249045045AF2D41BAED /* Sources */,
+				1C50AFC82EDF56C9A5556632E4369B41 /* Frameworks */,
+				348F73D80159106802B7CFC524B1D351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flutter-AusweisApp2";
+			productName = Flutter_AusweisApp2;
+			productReference = B21F62418C2118678165BFC879618360 /* Flutter-AusweisApp2 */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7B1BADD7B376A342A4E035F714FE9FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB41E06AAB1E7C9E18305C13A4423709 /* Flutter-AusweisApp2 */,
+				12B8119633C1D68048B3611A584F47BB /* Pods-Flutter-AusweisApp2_Example */,
+				D3A3BE9A289C9DCBA762ABA398651217 /* Pods-Flutter-AusweisApp2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348F73D80159106802B7CFC524B1D351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598C6DDD457AD0F635DC8D6BEB358CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A8A33C168540D9FDBB6F5B8B5EEBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CABC3F27BBAC3421C053383C383E541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B57257936427A0832F354017387FA9 /* Pods-Flutter-AusweisApp2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4685A8BD0084A9130A1EF36D973BAFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CF3CB5653EF7D56B6F48F5F4037F1B /* Pods-Flutter-AusweisApp2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB1E15C0C39A249045045AF2D41BAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4C4FD39E11FFF3418608138B67F131 /* Flutter-AusweisApp2-dummy.m in Sources */,
+				3BA9CF2817980E2C78E5F75C1B738585 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101EE95C5F30D3B4024CDDF7A29543FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Flutter-AusweisApp2_Example";
+			target = 12B8119633C1D68048B3611A584F47BB /* Pods-Flutter-AusweisApp2_Example */;
+			targetProxy = 2EE5A293E0032B93FEDF2B693B4BB48E /* PBXContainerItemProxy */;
+		};
+		A3AEE8E33BB4F1D2D94FA402D5F7B5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flutter-AusweisApp2";
+			target = FB41E06AAB1E7C9E18305C13A4423709 /* Flutter-AusweisApp2 */;
+			targetProxy = 4AFE4AAD180D9E1DA372B8C37FBC4F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FC2ED8926E6EF9C31C79EDC605CCE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EA5E625958161F7807E6F161F51510 /* Pods-Flutter-AusweisApp2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Tests/Pods-Flutter-AusweisApp2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Tests/Pods-Flutter-AusweisApp2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A7D9D9009DAE1F890655C0F9571AE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16DD7FBB8D4CCF64F74F618FDE4DAB6 /* Pods-Flutter-AusweisApp2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Example/Pods-Flutter-AusweisApp2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Example/Pods-Flutter-AusweisApp2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FD8B0A475A546B38069400578BCB908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B62CE2FA3CD1688BE543CF1734CAF8 /* Pods-Flutter-AusweisApp2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Tests/Pods-Flutter-AusweisApp2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Tests/Pods-Flutter-AusweisApp2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6033743F1693F1473622DBD68C08E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E167D474A389FDD0C278E1DE77EE9F /* Flutter-AusweisApp2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2.modulemap";
+				PRODUCT_MODULE_NAME = Flutter_AusweisApp2;
+				PRODUCT_NAME = Flutter_AusweisApp2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C07EE1861E24355091CC0C962A3D95CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A07A047378F783F953452C3B60E6678 /* Pods-Flutter-AusweisApp2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Example/Pods-Flutter-AusweisApp2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flutter-AusweisApp2_Example/Pods-Flutter-AusweisApp2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C33C215C89CAE6A7AE5ACEFA48F10726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42CC5341C431464E83497FCA830C822 /* Flutter-AusweisApp2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flutter-AusweisApp2/Flutter-AusweisApp2.modulemap";
+				PRODUCT_MODULE_NAME = Flutter_AusweisApp2;
+				PRODUCT_NAME = Flutter_AusweisApp2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36591A18662F58DF596F09480AA32FC5 /* Build configuration list for PBXNativeTarget "Pods-Flutter-AusweisApp2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD8B0A475A546B38069400578BCB908 /* Debug */,
+				7FC2ED8926E6EF9C31C79EDC605CCE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5451014E9EC18370773E459EB98691C /* Build configuration list for PBXNativeTarget "Pods-Flutter-AusweisApp2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7D9D9009DAE1F890655C0F9571AE3E /* Debug */,
+				C07EE1861E24355091CC0C962A3D95CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E4480B7C4085F2F7EE9AC7D23948E5 /* Build configuration list for PBXNativeTarget "Flutter-AusweisApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6033743F1693F1473622DBD68C08E0F /* Debug */,
+				C33C215C89CAE6A7AE5ACEFA48F10726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

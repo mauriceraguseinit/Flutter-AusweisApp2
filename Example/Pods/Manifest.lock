@@ -1,0 +1,16 @@
+PODS:
+  - Flutter-AusweisApp2 (0.1.0)
+
+DEPENDENCIES:
+  - Flutter-AusweisApp2 (from `../`)
+
+EXTERNAL SOURCES:
+  Flutter-AusweisApp2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Flutter-AusweisApp2: 80c36db795b979419072e4cc2acd4b5bbcecb922
+
+PODFILE CHECKSUM: 2da3f0726e448edbc926853bb700cd1228d09961
+
+COCOAPODS: 1.11.2

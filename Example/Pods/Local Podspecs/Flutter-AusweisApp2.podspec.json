@@ -1,0 +1,22 @@
+{
+  "name": "Flutter-AusweisApp2",
+  "version": "0.1.0",
+  "summary": "A short description of Flutter-AusweisApp2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Maurice Raguse/Flutter-AusweisApp2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maurice Raguse": "maurice.raguse@init.de"
+  },
+  "source": {
+    "git": "https://github.com/Maurice Raguse/Flutter-AusweisApp2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Flutter-AusweisApp2/Classes/**/*"
+}
